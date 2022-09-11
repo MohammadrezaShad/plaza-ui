@@ -1,6 +1,6 @@
 {
   "name": "@plaza-ui/utils",
-  "version": "0.7.16",
+  "version": "0.7.17",
   "description": "Plaza Design System Utils",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -97,5 +97,5 @@
   "dependencies": {
     "@babel/runtime": "^7.14.5"
   },
-  "gitHead": "dc4c9b77222288fc77d0fa4abdb72f99409aa015"
+  "gitHead": "eb918b6a21d0a4174064bfb54fcc456d424c5b5e"
 }
