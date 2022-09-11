@@ -127,7 +127,8 @@
     "@plaza-ui/hooks": "^0.7.14",
     "@plaza-ui/icons": "^0.7.14",
     "@plaza-ui/styles": "^0.7.14",
-    "@plaza-ui/utils": "^0.7.14"
+    "@plaza-ui/utils": "^0.7.14",
+    "postcss": "8.4.5"
   },
   "gitHead": "e4a90aebeafd741a4627963f9eb6928b6daf604d"
 }

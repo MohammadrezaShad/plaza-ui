@@ -3,16 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
   "resolutions": {
     "@lerna/publish": "^3.22.1"
   },
+  "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
