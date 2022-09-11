@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "declaration": true,
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "lib", "scripts"],
+  "types": ["typePatches"]
+}

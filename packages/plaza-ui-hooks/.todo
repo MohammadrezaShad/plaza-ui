@@ -1,0 +1,67 @@
+Project:
+    Structure:
+     - Config:webpack and env files.
+     - Hoc:High Order Components.
+     - Context and Provider:Context Structure.
+     - Redux:Redux Structure.
+     - Types:Typescript types
+     - Constants:is a type of variable whose value cannot be changed and has global usage
+     - Helpers:custom hooks or do bigger things.
+     - Utils:small function , that can be freely moved and imported anywhere,don't typically depend on any framework code.
+     - Service:part of reudx Structure do actions methods in that.
+     - Hooks:make custom hooks.
+     - Service: class/interface provides a way of a client to interact with some functionality in the application
+    Naming Convention:
+     - Use Intention-Revealing
+     - Avoid Disinformation
+     - Make Meaningful Distinctions
+     - Use Pronounceable Names
+     - Use Searchable Names
+     - Avoid Encodings
+     - Avoid Mental Mapping
+     - Class Names Not Be Verb
+     - Method Should Be Verb or Verb Phrase
+     - Use Descriptive Name For Functions
+     - Dont Cut
+     - Pick One Word Per Concept
+     - Dont Put: Avoid using the same word for two purposes
+    Solid Principles:
+     - Single-Responsibility Principle : Components should do only one thing and do that well.
+     - Open-Closed Principle : Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+     - Liskov Substitution Principle : That means subclasses of a particular class should be able to replace the superclass without breaking any functionality.      
+     - Interface Segregation Principle : Components should not depend on things they don’t need.
+     - Dependency Inversion : No component or function should care about how a particular thing is done.
+    Functions Principles:
+     - Dry:Dont Repeat Yourself
+     - Small:One Job Per Function
+     - One Level of Abstraction  Per Function
+     - Step Down Rule: makeBreakfast(){addEggs cook serve} > addEggs() > cook() > makeDinner(){serve} - serve()
+     - Args:Zero Best , one Good , two and three is painful , more than three is rare...
+     - Dont Use Flag Arguments : use Enums and separate in diffrent Functions move(true , 6)
+     - Avoid Side Effect :here is a pure function. It has no side effect as it doesn’t mutate any variable or state outside its scope and it returns an output based on the input parameter.
+    Classes Principles:
+     - Step Down Rule
+     - Class Should Be Small
+     - Class must be Encapsulate
+     - Dependency Injection
+     - Solid
+    Commit Convention:
+     - <type>[optional scope]: <description>
+     - [optional body]
+     - [optional footer(s)]
+     - ------------------------
+     - build: Build related changes (eg: npm related/ adding external dependencies)
+     - add: a new file
+     - feat: A new feature
+     - chore: A code change that external user won't see (eg: change to .gitignore file or .prettierrc file)
+     - docs: Documentation related changes
+     - fix: A bug fix
+     - perf: A code that improves performance
+     - refactor: A code that neither fix bug nor adds a feature. (eg: You can use this when there is semantic changes like renaming a variable/ function name)
+     - test: Adding new test or making changes to existing test
+     - style: A code that is related to styling
+     - ------------------------
+     - Commit message with ! to draw attention to breaking change
+     - feat(lang): add polish language
+ 
+      

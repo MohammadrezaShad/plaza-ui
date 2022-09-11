@@ -1,0 +1,41 @@
+{
+  "name": "plaza-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "resolutions": {
+    "@lerna/publish": "^3.22.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:core": "cd packages/plaza-ui && yarn storybook",
+    "start:icons": "cd packages/plaza-ui-icons && yarn storybook",
+    "start:hooks": "cd packages/plaza-ui-hooks && yarn storybook",
+    "start:styles": "cd packages/plaza-ui-styles && yarn storybook",
+    "start:utils": "cd packages/plaza-ui-utils && yarn storybook",
+    "publish": "yarn lerna publish",
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "test": "yarn lerna run test",
+    "test:watch": "yarn lerna run test:watch",
+    "commit": "yarn git-cz",
+    "build:storybook": "yarn lerna run build-storybook",
+    "test:chromatic": "yarn lerna run chromatic"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

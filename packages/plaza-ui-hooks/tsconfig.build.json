@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "build",
+    "lib",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/stories/**"
+  ]
+}
