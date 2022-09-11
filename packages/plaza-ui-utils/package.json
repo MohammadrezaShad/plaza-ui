@@ -1,6 +1,6 @@
 {
   "name": "@plaza-ui/utils",
-  "version": "0.7.14",
+  "version": "0.7.15",
   "description": "Plaza Design System Utils",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

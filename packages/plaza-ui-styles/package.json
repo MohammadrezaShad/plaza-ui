@@ -1,6 +1,6 @@
 {
   "name": "@plaza-ui/styles",
-  "version": "0.7.14",
+  "version": "0.7.15",
   "description": "Plaza Design System",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -117,7 +117,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.5",
-    "@plaza-ui/utils": "^0.7.14",
+    "@plaza-ui/utils": "^0.7.15",
     "@types/react-router-dom": "^5.1.8",
     "postcss": "^8.3.6"
   },

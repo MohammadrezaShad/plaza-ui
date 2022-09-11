@@ -1,6 +1,6 @@
 {
   "name": "@plaza-ui/core",
-  "version": "0.7.14",
+  "version": "0.7.15",
   "description": "Plaza Design System",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -123,11 +123,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.5",
-    "@plaza-ui/core": "^0.7.14",
-    "@plaza-ui/hooks": "^0.7.14",
-    "@plaza-ui/icons": "^0.7.14",
-    "@plaza-ui/styles": "^0.7.14",
-    "@plaza-ui/utils": "^0.7.14",
+    "@plaza-ui/core": "^0.7.15",
+    "@plaza-ui/hooks": "^0.7.15",
+    "@plaza-ui/icons": "^0.7.15",
+    "@plaza-ui/styles": "^0.7.15",
+    "@plaza-ui/utils": "^0.7.15",
     "postcss": "8.4.5"
   },
   "gitHead": "788e4c0093495aa076b913bfda4d2b33a37ae547"
